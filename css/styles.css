@@ -42,8 +42,8 @@ body {
 }
 
 .nav-link:hover {
-  color: #ee3a43 !important;
-  border-bottom: 2px solid #ee3a43 !important;
+  color: #d70826 !important;
+  border-bottom: 2px solid #d70826 !important;
   padding-top: 6px !important;
 }
 
@@ -57,7 +57,7 @@ body {
 /* LANDING PAGE */
 
 #landing-slide {
-  background-image: url("landing-page.jpg");
+  background-image: url("opt-landing-page.jpg");
   height: 700px !important;
   background-size: cover;
 }
@@ -143,7 +143,7 @@ body {
   margin-top: 5px;
 }
 .buynow-btn {
-  background-color: #ee3a43 !important;
+  background-color: #d70826 !important;
   color: #fff !important;
   font-size: 11px !important;
   text-align: right !important;
@@ -164,7 +164,7 @@ body {
 }
 
 footer {
-  background: #cb6733;
+  background: #d70826;
 }
 
 .ftr-copy {

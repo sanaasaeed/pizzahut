@@ -1,6 +1,5 @@
 body {
   background-color: #100f0f !important;
-  margin-top: -24px !important;
 }
 
 /* FONTS */
@@ -42,8 +41,8 @@ body {
 }
 
 .nav-link:hover {
-  color: #d70826 !important;
-  border-bottom: 2px solid #d70826 !important;
+  color: #ee3a43 !important;
+  border-bottom: 2px solid #ee3a43 !important;
   padding-top: 6px !important;
 }
 
@@ -57,7 +56,7 @@ body {
 /* LANDING PAGE */
 
 #landing-slide {
-  background-image: url("opt-landing-page.jpg");
+  background-image: url("landing-page.jpg");
   height: 700px !important;
   background-size: cover;
 }
@@ -88,6 +87,21 @@ body {
   background-color: #cb6733 !important;
   border-color: #cb6733 !important;
 }
+
+    /* LANDING PAGE MEDIA QUIRIES */
+
+@media (max-width: 600px){
+  .mobile-heading{
+    background-color: #3c3c3c !important;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0.9;
+  }
+  .text{
+    font-size: 70px !important;
+  }
+}
+
 
 /* MENU HEADER */
 
@@ -143,7 +157,7 @@ body {
   margin-top: 5px;
 }
 .buynow-btn {
-  background-color: #d70826 !important;
+  background-color: #ee3a43 !important;
   color: #fff !important;
   font-size: 11px !important;
   text-align: right !important;
@@ -164,7 +178,7 @@ body {
 }
 
 footer {
-  background: #d70826;
+  background: #cb6733;
 }
 
 .ftr-copy {

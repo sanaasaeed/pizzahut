@@ -60,7 +60,7 @@ body {
 /* LANDING PAGE */
 
 #landing-slide {
-  background-image: url("landing-page.jpg");
+  background-image: url("opt-landing-page.jpg");
   height: 700px !important;
   background-size: cover;
 }

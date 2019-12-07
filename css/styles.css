@@ -198,3 +198,40 @@ footer {
 .ftr-copy {
   font-weight: bold;
 }
+
+/* Contact us */
+
+.container-form {
+  /* text-align: center; */
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.form-group:nth-child(1) {
+  width: 30%;
+}
+.form-group:nth-child(2) {
+  width: 50%;
+}
+
+.form-group input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-group label {
+  color: #ee3a43;
+  font-weight: bold;
+}
+
+.form-group textarea {
+  border: none;
+  border-radius: 5px;
+  /* padding: 10px; */
+}

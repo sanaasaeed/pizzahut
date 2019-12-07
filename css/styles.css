@@ -235,3 +235,15 @@ footer {
   border-radius: 5px;
   /* padding: 10px; */
 }
+
+.div-submit {
+  text-align: center;
+  color: #fff !important;
+  font-family: "Poppins-ExtraBold", Arial, sans-serif;
+}
+
+.btn-submit {
+  background-color: #ee3a43 !important;
+  border-color: #ee3a43 !important;
+  color: #fff !important;
+}

@@ -89,7 +89,6 @@ body {
 .grey-shade-personal {
   background-color: #3c3c3c !important;
   border-radius: 15px;
-  height: 250px;
   opacity: 0.9;
 }
 
@@ -109,14 +108,14 @@ body {
 .grey-shade {
   background-color: #3c3c3c !important;
   border-radius: 15px;
-  height: 300px;
+  /* height: 300px; */
   opacity: 0.9;
 }
 .checkout-nameheadings {
-  color: rgb(255, 0, 0);
+  color: #ec2f39;
   font-family: "Poppins-SemiBold", Arial, sans-serif;
   font-size: 28px;
-  text-decoration-line: underline;
+  /* text-decoration-line: underline; */
   margin-bottom: 10px;
 }
 .checkout-list {
@@ -145,6 +144,10 @@ body {
 }
 .checkout-row {
   padding-top: 30px;
+}
+
+.product-details {
+  display: none;
 }
 
 /* TOTAL */

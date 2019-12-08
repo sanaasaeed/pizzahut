@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="css/checkout.css" />
     <link
       rel="stylesheet"
+      href="css/mobile-checkout.css"
+      media="(max-width:980px)"
+    />
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
@@ -163,19 +168,95 @@
       </div>
     </section>
 
+    <section id="checkout mobile-checkout">
+      <div class="container">
+        <div class="grey-shade">
+          <div class="product-details">
+            <h2 class="product">1- Chicken Tikka Pizza</h2>
+            <div class="quantity-price mb-3">
+              <div class="quantity-gp">
+                <label for="quantity">Qty: </label>
+                <select name="quantity" id="quantity">
+                  <option selected value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+              <div class="price-gp">
+                <label for="price">Price: </label>
+                <p id="price">1200</p>
+              </div>
+            </div>
+            <h2 class="product">2- Chicken Tikka Pizza</h2>
+            <div class="quantity-price mb-3">
+              <div class="quantity-gp">
+                <label for="quantity">Qty: </label>
+                <select name="quantity" id="quantity">
+                  <option selected value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+              <div class="price-gp">
+                <label for="price">Price: </label>
+                <p id="price">1200</p>
+              </div>
+            </div>
+            <h2 class="product">3- Chicken Tikka Pizza</h2>
+            <div class="quantity-price mb-3">
+              <div class="quantity-gp">
+                <label for="quantity">Qty: </label>
+                <select name="quantity" id="quantity">
+                  <option selected value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+              <div class="price-gp">
+                <label for="price">Price: </label>
+                <p id="price">1200</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="total">
       <div class="container">
         <div class="row">
           <div class="col-lg-9"></div>
 
           <div class="col-lg-3">
-            <div class="red-box">
+            <div class="red-box mb-3">
               Total: Rs 5,500
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.js"
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
